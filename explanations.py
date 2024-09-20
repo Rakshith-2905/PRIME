@@ -40,7 +40,7 @@ from matplotlib.offsetbox import AnchoredText
 from train_task_distillation import get_dataset, get_CLIP_text_encodings, build_classifier
 from models.mapping import TaskMapping, MultiHeadedAttentionSimilarity, MultiHeadedAttention, print_layers, MeanAggregator, MaxAggregator
 from utils_proj import SimpleDINOLoss, compute_accuracy, compute_similarities, CutMix, MyAugMix, find_normalization_parameters, get_score, calc_gen_threshold, calc_accuracy_from_scores
-from failure_detection_eval import CIFAR100C, load_data, get_save_dir
+from failure_eval import CIFAR100C, load_data, get_save_dir
 
 CLIP_LOGIT_SCALE = 100
 
